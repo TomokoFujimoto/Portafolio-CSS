@@ -1,21 +1,20 @@
-@import url ('https://fonts.googleapis.com/css2? family = Yeseva + One & display = swap');
-
 body{
     margin: 0;
     padding: 0;
     
 }
 
-.container{
+
+.primer-container{
     background-image: url("https://i.ibb.co/f4TTyfM/portada3.jpg");
     background-size: cover;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    font-family:  'Yeseva One', cursiva;
-}
+    margin: 0;
 
+}
 
 .linkes{
     display: flex;
@@ -25,9 +24,9 @@ body{
 }
 
 .link{
-    color: rgb(247, 181, 206);
+    color: rgb(241, 190, 218);
     text-decoration: none;
-    margin-right: 40px;
+    margin-right: 15px;
 }
 
 .perfil{
@@ -37,11 +36,8 @@ body{
     height: 100%;
     width: 100%;
     flex-direction: column;
-    color:rgb(247, 181, 206);
+    color: rgb(241, 190, 218);
     
-}
-h1 {
-font-family:  'Yeseva One', cursiva;
 }
 
 .foto{
@@ -51,4 +47,34 @@ font-family:  'Yeseva One', cursiva;
     box-sizing: border-box;
 }
 
+.segundo-container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(35, 36, 58);
+    justify-content: center;
+    align-items: center;
+}
 
+.contenedor-foto2{
+    height: 60%;
+    width: 25%;
+    margin-right: 20px;
+
+}
+
+.contenedor-perfil2{
+    height: 60%;
+    width: 50%;
+    color: white;
+   
+}
+
+.foto-2{
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    text-align: justify;
+}
