@@ -1,3 +1,5 @@
+@import url ('https://fonts.googleapis.com/css2? family = Baloo + 2: wght @ 600 & display = swap'); </style>
+
 body{
     margin: 0;
     padding: 0;
@@ -11,8 +13,9 @@ body{
     width: 100vw;
     display: flex;
     flex-direction: column;
-
+    font-family: 'Comic Neue', cursive;
 }
+
 
 .linkes{
     display: flex;
@@ -22,7 +25,7 @@ body{
 }
 
 .link{
-    color: rgb(252, 167, 181);
+    color: rgb(228, 61, 89);
     text-decoration: none;
     margin-right: 40px;
 }
@@ -34,8 +37,11 @@ body{
     height: 100%;
     width: 100%;
     flex-direction: column;
-    color: rgb(7, 204, 7);
+    color:rgb(228, 61, 89);
     
+}
+h1 {
+font-family: 'Comic Neue', cursive;
 }
 
 .foto{
@@ -44,4 +50,5 @@ body{
     border-radius: 50%;
     box-sizing: border-box;
 }
+
 
