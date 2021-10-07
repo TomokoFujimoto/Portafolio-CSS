@@ -78,3 +78,19 @@ body{
 p{
     text-align: justify;
 }
+
+.contenedor-caixinha{
+display: flex;
+height: 30%;
+width: 100%;
+border-radius:0.5rem;
+border: rgb(151, 50, 109) solid 2px;
+}
+.izquerda{
+height:100%;
+width: 50%;
+}
+.dereita{
+height: 100%;
+width: 50%;
+}
