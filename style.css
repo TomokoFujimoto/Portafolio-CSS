@@ -1,4 +1,6 @@
-@import url ('https://fonts.googleapis.com/css2? family = Baloo + 2: wght @ 600 & display = swap'); </style>
+
+
+@import url ('https://fonts.googleapis.com/css2? family = Baloo + 2: wght @ 600 & display = swap'); 
 
 body{
     margin: 0;
@@ -25,7 +27,7 @@ body{
 }
 
 .link{
-    color: rgb(228, 61, 89);
+    color: rgb(247, 181, 206);
     text-decoration: none;
     margin-right: 40px;
 }
@@ -37,7 +39,7 @@ body{
     height: 100%;
     width: 100%;
     flex-direction: column;
-    color:rgb(228, 61, 89);
+    color:rgb(247, 181, 206);
     
 }
 h1 {
