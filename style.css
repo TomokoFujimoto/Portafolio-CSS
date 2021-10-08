@@ -171,6 +171,15 @@ p{
   text-align: center;
 }
 
+.rodape{
+display: flex;
+background-color: rgb(43, 1, 82);
+}
+
+.imagenes-rodape{
+
+}
+
 @media (max-width: 790px) {
   .segundo-container {
     flex-direction: column
