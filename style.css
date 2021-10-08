@@ -165,7 +165,10 @@ p{
   height: 60%;
   border: rgb(151, 50, 109) solid 1px;
   padding: 20x 30px 20px 20px;
-  
+}
+
+.texto-caixinhas{
+  text-align: center;
 }
 
 @media (max-width: 790px) {
