@@ -217,4 +217,13 @@ footer{
   margin-bottom: 20px;
   margin-right: 0;
 }
+#tercer-container{
+  height:auto
+  }
+  .projetos2{
+  flex-direction: column;
+}
+.box{
+  width:100%;
+}
 }
