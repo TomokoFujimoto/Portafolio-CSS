@@ -227,5 +227,7 @@ footer{
 .box{
   width:100%;
 }
+.box:nth-child(2) 
+{ margin: 20px 0; }
 
 }
