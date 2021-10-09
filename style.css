@@ -84,7 +84,7 @@ p{
     height: 60%;
     width: 20%;
     margin-right: 20px;
-    padding: 4px;
+    padding: 4px ;
     box-shadow: 0 0 10px;
     
 }
@@ -206,10 +206,15 @@ footer{
 
 @media (max-width: 790px) {
   .segundo-container {
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 .contenedor-perfil2{
+ width:85%
+} 
+
+.contenedor-foto2{
   width: 45%;
-  margin-bottom: 
+  margin-bottom: 20px;
+  margin-right: 0;
+}
 }
