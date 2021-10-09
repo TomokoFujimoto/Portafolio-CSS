@@ -58,7 +58,7 @@ h1{
 p{
     margin-top: 0;
     text-align: justify;
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -76,6 +76,8 @@ p{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 40px 0;
+    
 }
 
 .contenedor-foto2{
@@ -95,6 +97,9 @@ p{
     flex-direction: column;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    
+}
+.contenedor-perfil2 h2 {
+  margin-top : 0
 }
 
 .foto-2{
