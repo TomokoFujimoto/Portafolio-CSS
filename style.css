@@ -158,7 +158,6 @@ p{
     width: 30%;
     height: 100%;
     border: rgb(151, 50, 109) solid 2px;
-    box-sizing: border-box;
     border-radius: 0.5rem;
     color: rgb(241, 190, 218);
     box-shadow: 3px 3px 5px black;
@@ -171,12 +170,13 @@ p{
 }
 
 .imagenes-projetos{
+  flex-direction: column;
   border-radius: 0.5rem;
-  width: 300px;
-  height: 260px;
+  width: 200px;
+  height: 150px;
   border: rgb(151, 50, 109) solid 1px;
-  
-  
+  padding: 20x 20px 10px 10px;
+
 }
 .texto-caixinhas{
   text-align: center;
@@ -219,15 +219,24 @@ footer{
   margin-right: 0;
 }
 #tercer-container{
-  height:auto
+  height:auto;
   }
   .projetos2{
   flex-direction: column;
 }
 .box{
   width:100%;
+ 
 }
-.box:nth-child(2) 
-{ margin: 20px 0; }
+.box:nth-child(2){ 
+  margin: 20px 0; 
+}
+.imagenes-projetos{
+flex-direction: column;
+display: flex;
+
+  
+}
+
 
 }
