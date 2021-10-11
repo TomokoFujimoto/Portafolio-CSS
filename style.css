@@ -58,7 +58,7 @@ h1{
 
 p{
     margin-top: 0; 
-    text-align: justify;
+   
     font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -110,7 +110,6 @@ p{
 
 .contenedor-cajita{
     display: flex;
-    flex-wrap: wrap;
     height: 45%;
     width: 100%;
     border-radius: 0.5rem;
