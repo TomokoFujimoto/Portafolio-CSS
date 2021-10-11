@@ -57,8 +57,7 @@ h1{
 }
 
 p{
-    margin-top: 0;
-    text-align: justify;
+    margin-top: 0; 
     font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
