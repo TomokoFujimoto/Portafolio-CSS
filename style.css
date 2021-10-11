@@ -24,6 +24,7 @@ body{
     height: 5vh;
     width: 100%;
     position: fixed;
+    background: rgba(0,0,0, 0.6);
 }
 
 .link{
@@ -47,7 +48,7 @@ body{
     width: 100%;
     flex-direction: column;
     color: rgb(241, 190, 218);
-    line-height: 0;
+    
 }
 
 h1{
@@ -109,6 +110,7 @@ p{
 
 .contenedor-cajita{
     display: flex;
+    flex-wrap: wrap;
     height: 45%;
     width: 100%;
     border-radius: 0.5rem;
@@ -176,6 +178,7 @@ p{
   height: 150px;
   border: rgb(151, 50, 109) solid 1px;
   padding: 20x 20px 10px 10px;
+  max-width: 100%;
 
 }
 .texto-caixinhas{
@@ -231,12 +234,7 @@ footer{
 .box:nth-child(2){ 
   margin: 20px 0; 
 }
-.imagenes-projetos{
-flex-direction: column;
-display: flex;
 
-  
-}
 
 
 }
