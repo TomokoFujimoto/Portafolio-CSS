@@ -13,22 +13,22 @@ async function obtenerRepositorios(){
     link.target="_blank"
     const div = document.createElement("div");
     div.appendChild(li)
-    //const div = document.createElement("color");
-    //div.appendChild(color)
-
-    //const class = document.createElement("class");
-    //div.appendChild(class)
-
+    
     li.appendChild(link)
 
     ul.appendChild(li)
     repositorio.appendChild(ul)
   })
 
-
-
-
   
 }
 obtenerRepositorios()
+
+
+
+//const div = document.createElement("color");
+    //div.appendChild(color)
+
+    //const class = document.createElement("class");
+    //div.appendChild(class)
 

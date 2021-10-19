@@ -188,7 +188,7 @@ p{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#repositorio a:hover{
+#repositorio a:hover, #repositorio a:focus{
   color: fuchsia;
 }
 
@@ -216,12 +216,18 @@ p{
   max-width: 100%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+//.icon-repo{
+ // background: wheat;
+  //display: flex;
+//}
 .log-rep{
   border: rgb(151, 50, 109) solid 3px;
   border-radius: 10%;
   width: 100px;
   height: 100px;
-  margin: 2%;
+  margin: 1%;
+  position: relative;
 
 }
 
