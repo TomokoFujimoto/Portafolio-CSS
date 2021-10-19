@@ -218,8 +218,10 @@ p{
 }
 .log-rep{
   border: rgb(151, 50, 109) solid 3px;
+  border-radius: 10%;
   width: 100px;
   height: 100px;
+  
 
 }
 
