@@ -11,8 +11,13 @@ async function obtenerRepositorios(){
     link.innerText= repo.name;
     link.href=repo.html_url;
     link.target="_blank"
-    //const div = document.createElement("div");
-    //div.appendChild(li)
+    const div = document.createElement("div");
+    div.appendChild(li)
+    //const div = document.createElement("color");
+    //div.appendChild(color)
+
+    //const class = document.createElement("class");
+    //div.appendChild(class)
 
     li.appendChild(link)
 
