@@ -195,7 +195,6 @@ p{
 #repositorio a:visited{
   color: purple;
 }
-
    
 #repositorio ul{
   list-style: none;
@@ -216,6 +215,12 @@ p{
   color: rgb(241, 190, 218);
   max-width: 100%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.log-rep{
+  border: rgb(151, 50, 109) solid 3px;
+  width: 100px;
+  height: 100px;
+
 }
 
 footer{
