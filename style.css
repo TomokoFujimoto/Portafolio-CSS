@@ -188,6 +188,15 @@ p{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#repositorio a:hover{
+  color: fuchsia;
+}
+
+#repositorio a:visited{
+  color: purple;
+}
+
+   
 #repositorio ul{
   list-style: none;
 }
