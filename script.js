@@ -13,9 +13,7 @@ async function obtenerRepositorios(){
     link.target="_blank"
     const div = document.createElement("div");
     div.appendChild(li)
-    
     li.appendChild(link)
-
     ul.appendChild(li)
     repositorio.appendChild(ul)
   })
